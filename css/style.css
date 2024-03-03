@@ -35,12 +35,13 @@ header .backgroundPrueba {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255, .6);
+    /* background-color: rgb(255, 255, 255, .6); */
+    background-color: rgb(68, 68, 255, 0.4);
     left: 50%;
     z-index: 10;
     transform: rotate(1.4deg);
-    border-bottom-left-radius: 2rem;
-    box-shadow: 0px 0px 1rem rgb(255, 255, 255, .2);
+    border-bottom-left-radius: 1.6rem;
+    box-shadow: 0px 0px 1rem rgb(68, 68, 255, .3);
 }
 
 header nav ul {
@@ -67,7 +68,7 @@ header nav ul .spanA::before {
     top: .3rem;
     transform: rotate(20deg);
     margin: 0 auto;
-    background-color: rgb(255, 255, 255, .3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 header nav ul li {
@@ -82,7 +83,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: rgba(245, 245, 245, 0.9)
+    /* color: rgba(245, 245, 245, 0.9); */
+    color: rgb(230, 230, 255, .9);
 }
 
 .hamburger {
