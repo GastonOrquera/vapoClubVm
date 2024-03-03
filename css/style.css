@@ -1,0 +1,90 @@
+@import url('https://fonts.cdnfonts.com/css/santa-cruze');
+@import url('https://fonts.cdnfonts.com/css/quick-fox');
+@import url('https://fonts.cdnfonts.com/css/infinite-realities');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --fontTitle: 'Santa Cruze', sans-serif;
+    --fontP: 'Quick-Fox', sans-serif;
+    --fontA: 'Infinite Realities', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: .6rem 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+header .logoPage {
+    object-fit: cover;
+    width: 6rem;
+    height: 6rem;
+}
+
+header .backgroundPrueba {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255, .6);
+    left: 50%;
+    z-index: 10;
+    transform: rotate(1.4deg);
+    border-bottom-left-radius: 2rem;
+    box-shadow: 0px 0px 1rem rgb(255, 255, 255, .2);
+}
+
+header nav ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 100;
+}
+
+header nav ul .spanA {
+
+    position: relative;
+    height: 2rem;
+    width: .4rem;
+}
+
+header nav ul .spanA::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 1.360rem;
+    left: .1rem;
+    top: .3rem;
+    transform: rotate(20deg);
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255, .3);
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: var(--fontA);
+    transition: 400ms;
+}
+
+header nav ul li a:hover {
+    color: rgba(245, 245, 245, 0.9)
+}
+
+.hamburger {
+    display: none;
+}
