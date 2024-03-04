@@ -33,6 +33,7 @@ header .logoPage {
     object-fit: cover;
     width: 5.2rem;
     height: 5.2rem;
+    border-radius: 50%;
 }
 
 /* header .backgroundPrueba {
@@ -72,7 +73,6 @@ header nav ul .spanA::before {
     margin: 0 auto;
     /* background-color: rgba(230, 230, 230, 0.2); */
     background-color: #324fcc6c;
-    ;
 }
 
 header nav ul li {
@@ -174,8 +174,17 @@ header nav ul li a:hover {
 /* SECTION backgroundTwoMain */
 
 .backgroundTwoMain {
-    background-image: url(../img/imgPrueba2.jpg);
-    background-size: cover;
+    /* background-image: url(../img/imgPrueba2.jpg);
+    background-size: cover; */
+    background: hsla(236, 100%, 8%, 1);
+
+    background: linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000328", endColorstr="#00458E", GradientType=1);
     height: 100vh;
 }
 
@@ -188,6 +197,6 @@ header nav ul li a:hover {
 
 .backgroundTwoMain .lineHr {
     width: 20%;
-    border-color: #3551cf;
+    border-color: #fcfcfc1c;
     margin: 0 auto;
 }
