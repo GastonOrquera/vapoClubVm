@@ -105,18 +105,19 @@ header nav ul li a:hover {
 
 .backgroundOneMain {
     background-image: url(/img/imgPrueba.jpg);
-    background-position: center;
     background-size: cover;
-    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
     height: 100vh;
+
 }
 
 .backgroundOneMain .conteiner {
-    background-color: #00000010;
+    background-color: #00000065;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 100%;
     align-items: center;
     padding: 2.6rem 0;
 }
@@ -126,12 +127,12 @@ header nav ul li a:hover {
     height: 100%;
     display: flex;
     align-items: end;
-    padding-bottom: 2rem;
+    padding-bottom: 8%;
     position: absolute;
 }
 
 .backgroundOneMain .conteiner .prOne i {
-    color: rgb(24, 24, 24);
+    color: #3551cf;
     font-size: 2.6rem;
     transition: 600ms;
 }
@@ -143,7 +144,7 @@ header nav ul li a:hover {
 .backgroundOneMain h1 {
     font-family: var(--fontTitle);
     font-size: 3.2rem;
-    color: rgb(24, 24, 24);
+    color: #3551cf;
 }
 
 .backgroundOneMain p {
