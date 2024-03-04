@@ -104,7 +104,7 @@ header nav ul li a:hover {
 /* MAIN */
 
 .backgroundOneMain {
-    background-image: url(/img/imgPrueba2.png);
+    background-image: url(/img/imgPrueba.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -155,7 +155,7 @@ header nav ul li a:hover {
 /* SECTION backgroundTwoMain */
 
 .backgroundTwoMain {
-    background-image: url(/img/imgBackgroundProducts.png);
+    background-image: url(/img/imgPrueba2.jpg);
     background-size: cover;
     height: 100vh;
 }
