@@ -8,6 +8,9 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 :root {
     --fontTitle: 'Santa Cruze', sans-serif;
@@ -147,4 +150,25 @@ header nav ul li a:hover {
     font-family: var(--fontP);
     color: rgb(255, 255, 255);
     margin-top: .6rem;
+}
+
+/* SECTION backgroundTwoMain */
+
+.backgroundTwoMain {
+    background-image: url(/img/imgBackgroundProducts.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.backgroundTwoMain h2 {
+    color: rgb(252, 252, 252);
+    padding-top: 2rem;
+    font-family: var(--fontTitle);
+    text-align: center;
+}
+
+.backgroundTwoMain .lineHr {
+    width: 20%;
+    border-color: #3551cf;
+    margin: 0 auto;
 }
