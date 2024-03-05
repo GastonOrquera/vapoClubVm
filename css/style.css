@@ -397,6 +397,21 @@ header .hamburger {
         width: 16px;
         height: 2px;
         background-color: #fcfcfc;
+        transition: 600ms;
+    }
+
+    .hamburger.active div:first-of-type {
+        transform: rotate(45deg) translate(3px, 2px);
+        background-color: #3551cf;
+    }
+
+    .hamburger.active div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active div:last-of-type {
+        transform: rotate(-45deg) translate(3px, -3px);
+
     }
 
 

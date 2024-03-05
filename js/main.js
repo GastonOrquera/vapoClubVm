@@ -8,10 +8,12 @@ let navLinks = document.querySelectorAll('nav a');
 hamburger.addEventListener('click', function () {
 
     nav.classList.toggle('active');
+    hamburger.classList.toggle('active');
 
     navLinks.forEach(function (link) {
         link.addEventListener('click', function () {
             nav.classList.remove('active');
+            hamburger.classList.remove('active');
         });
     });
 
