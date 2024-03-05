@@ -278,5 +278,16 @@ header nav ul li a:hover {
 @media only screen and (max-width: 1000px) {
     .backgroundTwoMain .conteinerCards {
         grid-template-columns: repeat(2, 1fr);
+        padding: 2rem .6rem;
+        gap: .6rem;
+    }
+
+    .backgroundTwoMain .conteinerCards .card {
+        padding-bottom: 0;
+    }
+
+    .backgroundTwoMain .conteinerCards .card .btn {
+        width: 100%;
+        text-align: center;
     }
 }
