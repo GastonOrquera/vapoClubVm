@@ -25,7 +25,6 @@ header {
     align-items: center;
     background-color: #000000;
     padding: .6rem 2rem;
-    position: relative;
     overflow: hidden;
 }
 
@@ -48,7 +47,7 @@ header .logoPage {
 } */
 
 header nav ul {
-    position: relative;
+
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -69,7 +68,7 @@ header nav ul .spanA::before {
     height: 1.360rem;
     left: .1rem;
     top: .3rem;
-    transform: rotate(20deg);
+    /* transform: rotate(20deg); */
     margin: 0 auto;
     /* background-color: rgba(230, 230, 230, 0.2); */
     background-color: #324fcc6c;
@@ -95,7 +94,7 @@ header nav ul li a:hover {
     color: #3551cf;
 }
 
-.hamburger {
+header .hamburger {
     display: none;
 }
 
@@ -132,6 +131,7 @@ header nav ul li a:hover {
     border: 1px solid transparent;
     transition: 600ms;
     margin-top: 2rem;
+    border-radius: 4px;
 }
 
 .backgroundOneMain .conteiner .btn:hover {
@@ -166,9 +166,10 @@ header nav ul li a:hover {
 }
 
 .backgroundOneMain p {
-    font-family: var(--fontP);
-    color: rgb(255, 255, 255);
+    font-family: var(--fontA);
+    color: rgba(138, 165, 255, 0.849);
     margin-top: .6rem;
+    font-weight: 100;
 }
 
 /* SECTION backgroundTwoMain */
@@ -226,6 +227,20 @@ header nav ul li a:hover {
     font-family: var(--fontTitle);
 }
 
+.backgroundTwoMain .conteinerCards .card h3 {
+    color: #9caefd;
+    letter-spacing: 2px;
+}
+
+.backgroundTwoMain .conteinerCards .card p {
+    letter-spacing: 1px;
+}
+
+.backgroundTwoMain .conteinerCards .card .h3 {
+    font-family: var(--fontA);
+}
+
+
 .backgroundTwoMain .conteinerCards .card .btn {
     font-family: var(--fontTitle);
     color: rgb(252, 252, 252);
@@ -235,6 +250,7 @@ header nav ul li a:hover {
     padding: .6rem 4rem;
     border: 1px solid transparent;
     transition: 600ms;
+    border-radius: 4px;
 }
 
 .backgroundTwoMain .conteinerCards .card .btn:hover {
@@ -305,11 +321,91 @@ header nav ul li a:hover {
     width: 100%;
 }
 
+.lineNav {
+    display: none;
+}
 
 
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1000px) {
+
+    header {
+        padding: .4rem 1rem;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .spanA {
+        display: none;
+    }
+
+    .lineNav {
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+        border-color: #3551cf;
+    }
+
+    header nav.active {
+        display: flex;
+        position: absolute;
+        top: 6rem;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        padding: 1rem 1rem;
+        background-color: rgb(20, 20, 20);
+        z-index: 800;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        z-index: 900;
+        width: 100%;
+        gap: .2rem;
+    }
+
+    header nav ul li a {
+        font-size: 1.2rem;
+
+    }
+
+    header .hamburger {
+        display: flex;
+        background-color: #3551cf2f;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2px;
+        border-radius: 20%;
+        transition: 600ms;
+    }
+
+    header .hamburger:hover {
+        background-color: #3551cf83;
+    }
+
+    header .hamburger div {
+        width: 16px;
+        height: 2px;
+        background-color: #fcfcfc;
+    }
+
+
+
+
+    /* END HEADER */
+
+
+
     .backgroundTwoMain .conteinerCards {
         grid-template-columns: repeat(2, 1fr);
         padding: 2rem .6rem;
