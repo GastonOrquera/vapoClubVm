@@ -24,7 +24,7 @@ hamburger.addEventListener('click', function () {
 
 
 
-ScrollReveal().reveal('.scroll-revealImg', {
+ScrollReveal().reveal('.scroll-revealH', {
     origin: 'left',
     distance: '4px',
     duration: 1000,
