@@ -185,7 +185,7 @@ header nav ul li a:hover {
     background: -webkit-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
 
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000328", endColorstr="#00458E", GradientType=1);
-    height: 100vh;
+    height: max-content;
 }
 
 .backgroundTwoMain h2 {
@@ -270,6 +270,40 @@ header nav ul li a:hover {
     width: 100%;
 }
 
+.backgroundTwoMain .conteinerCards .card .imgProduct5 {
+    background-image: url(../img/imgProduct5.jpeg);
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
+
+.backgroundTwoMain .conteinerCards .card .imgProduct6 {
+    background-image: url(../img/imgProduct6.jpeg);
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
+
+.backgroundTwoMain .conteinerCards .card .imgProduct7 {
+    background-image: url(../img/imgProduct7.jpeg);
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
+
+.backgroundTwoMain .conteinerCards .card .imgProduct8 {
+    background-image: url(../img/imgProduct8.jpeg);
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
+
+.backgroundTwoMain .conteinerCards .card .imgProduct9 {
+    background-image: url(../img/imgProduct9.jpeg);
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
 
 
 
