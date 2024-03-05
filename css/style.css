@@ -200,3 +200,83 @@ header nav ul li a:hover {
     border-color: #fcfcfc1c;
     margin: 0 auto;
 }
+
+/* CARD PRODUCTS */
+
+.backgroundTwoMain .conteinerCards {
+    /* background-color: #00000042; */
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 2rem;
+    gap: 1.2rem;
+    margin-top: 1rem;
+}
+
+.backgroundTwoMain .conteinerCards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .6rem;
+    background-color: #3551cf38;
+    padding-bottom: .4rem;
+    color: rgb(252, 252, 252);
+    font-family: var(--fontTitle);
+}
+
+.backgroundTwoMain .conteinerCards .card .btn {
+    font-family: var(--fontTitle);
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    background-color: #3551cf;
+    width: max-content;
+    padding: .6rem 4rem;
+    border: 1px solid transparent;
+    transition: 600ms;
+}
+
+.backgroundTwoMain .conteinerCards .card .btn:hover {
+    background-color: #5070ff73;
+    border: 1px solid #fcfcfc;
+}
+
+.backgroundTwoMain .conteinerCards .card .imgProduct1 {
+    background-image: url(../img/imgProduct1.jpeg);
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
+
+.backgroundTwoMain .conteinerCards .card .imgProduct2 {
+    background-image: url(../img/imgProduct2.jpeg);
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
+
+.backgroundTwoMain .conteinerCards .card .imgProduct3 {
+    background-image: url(../img/imgProduct3.jpeg);
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
+
+.backgroundTwoMain .conteinerCards .card .imgProduct4 {
+    background-image: url(../img/imgProduct4.jpeg);
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1000px) {
+    .backgroundTwoMain .conteinerCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
