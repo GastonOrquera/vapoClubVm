@@ -106,7 +106,7 @@ header nav ul .flexRedes {
     padding: 1rem 1rem;
     gap: 1rem;
 
-
+    margin-left: 4rem;
     border-left: 1px solid #3551cf85;
     border-bottom: 1px solid #3551cf5d;
 }
@@ -410,6 +410,8 @@ header nav ul .flexRedes a:hover {
     header nav ul .flexRedes {
         justify-content: start;
         width: 100%;
+        margin-left: 0;
+        padding: 1.4rem 1rem;
     }
 
     header .hamburger {
