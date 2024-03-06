@@ -103,10 +103,10 @@ header .hamburger {
 /* MAIN */
 
 .backgroundOneMain {
-    background-image: url(../img/imgPrueba.jpg);
+    background-image: url(../img/prueba.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     height: 100vh;
     overflow: hidden;
 }
