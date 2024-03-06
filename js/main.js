@@ -19,11 +19,6 @@ hamburger.addEventListener('click', function () {
 
 });
 
-
-
-
-
-
 ScrollReveal().reveal('.scroll-revealH', {
     origin: 'left',
     distance: '4px',

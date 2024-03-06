@@ -98,6 +98,38 @@ header .hamburger {
     display: none;
 }
 
+header nav ul .flexRedes {
+    background-color: #3551cf17;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    gap: 1rem;
+
+
+    border-left: 1px solid #3551cf85;
+    border-bottom: 1px solid #3551cf5d;
+}
+
+
+
+header nav ul .flexRedes p {
+    font-family: var(--fontTitle);
+    color: #5d78f5;
+}
+
+header nav ul .flexRedes a {
+    text-decoration: none;
+    color: #5d78f5;
+    transition: 600ms;
+    font-size: 1.3rem;
+}
+
+header nav ul .flexRedes a:hover {
+    transform: scale(1.1);
+    color: #a9b9ff;
+}
+
 /* END HEADER */
 
 /* MAIN */
@@ -346,7 +378,7 @@ header .hamburger {
         display: block;
         width: 100%;
         margin-bottom: 1rem;
-        border-color: #3551cf;
+        border-color: #3551cf6e;
     }
 
     header nav.active {
@@ -373,6 +405,11 @@ header .hamburger {
     header nav ul li a {
         font-size: 1.2rem;
 
+    }
+
+    header nav ul .flexRedes {
+        justify-content: start;
+        width: 100%;
     }
 
     header .hamburger {
