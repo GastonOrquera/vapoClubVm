@@ -167,7 +167,7 @@ header nav ul .flexRedes a:hover {
 }
 
 .backgroundOneMain .conteiner .btn:hover {
-    background-color: #5070ff73;
+    /* background-color: #5070ff73; */
     border: 1px solid #fcfcfc;
 }
 
@@ -358,6 +358,72 @@ header nav ul .flexRedes a:hover {
 }
 
 
+.backgroundThree {
+    background-image: url(../img/imgSectionThree.png);
+    background-repeat: no-repeat;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.backgroundThree .box {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 6rem;
+    /* background-color: #0c13356c; */
+}
+
+.backgroundThree .box .imgMayorista,
+.imgMinorista {
+    background-image: url(../img/imgProduct3.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 20rem;
+    width: 20rem;
+}
+
+.backgroundThree .box .imgMayorista .dark,
+.imgMinorista .dark {
+    background-color: #0000007e;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundThree .box .imgMinorista {
+    background-image: url(../img/imgProduct2.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 20rem;
+    width: 20rem;
+}
+
+.backgroundThree .box a {
+    font-family: var(--fontTitle);
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: #3551cf;
+    transition: 600ms;
+    text-transform: uppercase;
+    padding: .6rem 2rem;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.backgroundThree .box a:hover {
+    background-color: #1533b9ea;
+    border: 1px solid #fcfcfc;
+}
+
+
+
+
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1000px) {
@@ -473,5 +539,22 @@ header nav ul .flexRedes a:hover {
     .backgroundTwoMain .conteinerCards .card .btn {
         width: 100%;
         text-align: center;
+    }
+
+    .backgroundThree .box {
+        display: grid;
+        grid-template-columns: repeat(1, 50%);
+        gap: 2rem;
+        /* background-color: #0c13356c; */
+    }
+
+    .backgroundThree .box .imgMayorista {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .backgroundThree .box .imgMinorista {
+        width: 18rem;
+        height: 18rem;
     }
 }

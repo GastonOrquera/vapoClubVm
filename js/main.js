@@ -19,7 +19,7 @@ hamburger.addEventListener('click', function () {
 
 });
 
-ScrollReveal().reveal('.scroll-revealH', {
+ScrollReveal().reveal('.scroll-revealImg', {
     origin: 'left',
     distance: '4px',
     duration: 1000,
