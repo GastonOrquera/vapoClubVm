@@ -525,6 +525,11 @@ header nav ul .flexRedes a:hover {
     /* END HEADER */
 
 
+    .backgroundOneMain {
+
+        background-image: url(../img/prueba2.jpg);
+
+    }
 
     .backgroundTwoMain .conteinerCards {
         grid-template-columns: repeat(2, 1fr);
