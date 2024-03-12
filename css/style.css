@@ -181,6 +181,7 @@ header nav ul .flexRedes a:hover {
     margin-bottom: 6rem;
 }
 
+
 .backgroundOneMain .conteiner .prOne i {
     color: #5d78f5;
     font-size: 2.6rem;
@@ -242,7 +243,7 @@ header nav ul .flexRedes a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     padding: 2rem 2rem;
     gap: 1.2rem;
     margin-top: 1rem;
@@ -257,20 +258,36 @@ header nav ul .flexRedes a:hover {
     padding-bottom: .4rem;
     color: rgb(252, 252, 252);
     font-family: var(--fontTitle);
+    overflow: hidden;
+}
+
+
+.conteinerCards .card:hover .imgProduct1,
+.conteinerCards .card:hover .imgProduct2,
+.conteinerCards .card:hover .imgProduct3,
+.conteinerCards .card:hover .imgProduct4,
+.conteinerCards .card:hover .imgProduct5,
+.conteinerCards .card:hover .imgProduct6,
+.conteinerCards .card:hover .imgProduct7,
+.conteinerCards .card:hover .imgProduct8,
+.conteinerCards .card:hover .imgProduct9 {
+    transform: scale(1.1);
+    transition: 400ms ease-in;
 }
 
 .backgroundTwoMain .conteinerCards .card h3 {
     color: #9caefd;
     letter-spacing: 2px;
+    margin-top: .5rem;
 }
 
 .backgroundTwoMain .conteinerCards .card p {
     letter-spacing: 1px;
 }
 
-.backgroundTwoMain .conteinerCards .card .h3 {
+/* .backgroundTwoMain .conteinerCards .card .h3 {
     font-family: var(--fontA);
-}
+} */
 
 
 .backgroundTwoMain .conteinerCards .card .btn {
