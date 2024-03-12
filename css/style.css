@@ -399,6 +399,7 @@ header nav ul .flexRedes a:hover {
     background-size: cover;
     height: 20rem;
     width: 20rem;
+
 }
 
 .backgroundThree .box .imgMayorista .dark,
@@ -439,6 +440,23 @@ header nav ul .flexRedes a:hover {
 }
 
 
+
+/* SECTION MAYORISTA */
+
+main .background {
+    background-image: url(../img/imgSectionThree.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+}
+
+main .background h2 {
+    font-family: var(--fontTitle);
+    color: #fcfcfc;
+    text-align: center;
+    padding: 2rem 0;
+
+}
 
 
 /* MEDIA QUERIES */
