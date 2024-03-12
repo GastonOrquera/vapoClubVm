@@ -35,10 +35,3 @@ ScrollReveal().reveal('.scroll-revealTitles', {
     interval: 200
 });
 
-ScrollReveal().reveal('.scroll-revealAncor', {
-    origin: 'left',
-    distance: '40px',
-    duration: 600,
-    transition: 'cubic-bezier(0.5,0,0,1)',
-    interval: 400
-});
