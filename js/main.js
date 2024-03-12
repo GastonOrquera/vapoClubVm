@@ -29,7 +29,7 @@ ScrollReveal().reveal('.scroll-revealImg', {
 
 ScrollReveal().reveal('.scroll-revealTitles', {
     origin: 'bottom',
-    distance: '14px',
+    distance: '10px',
     duration: 1000,
     transition: 'cubic-bezier(0.5,0,0,1)',
     interval: 200
